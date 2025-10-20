@@ -1,0 +1,35 @@
+.AuthRow {
+  position: absolute;
+  height: 100vh;
+  display: flex;
+  width: calc(50vw - 50vw);
+  left: calc(50vw);
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+.Auth form {
+  box-shadow: var(--boxShadow);
+  padding: 20px;
+  border-radius: 8px;
+}
+.Auth form h6 {
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+}
+.Auth form .Btn {
+  width: 100%;
+  padding: 8px 17px;
+  border-radius: 999px;
+  font-weight: 800;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+  background: var(--main);
+}
+.Auth form p span {
+  color: var(--main);
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.AuthBg {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* mitad imagen, mitad contenido */
+  min-height: 100vh; /* ocupa alto de la pantalla */
+  overflow: hidden;
+}
+
+.AuthBgImage {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("/3.png"); /* url()*/
+  background-size: cover;
+  background-position: center;
+}
+
+.AuthBgContent {
+  display: flex;
+  /* place-items: center; /* centra tu <h1> */
+  padding: 2rem;
+}

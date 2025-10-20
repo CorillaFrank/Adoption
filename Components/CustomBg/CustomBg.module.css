@@ -1,0 +1,39 @@
+.CustomBg {
+  position: relative;
+}
+.CustomBg div img {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+}
+.CustomBgOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  background: #000;
+  opacity: 0.2;
+}
+.CustomBgContent {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.CustomBgContent h6 {
+  font-weight: 800;
+  font-size: 60px;
+  border-bottom: 0.2px dashed #ccc;
+  width: max-content;
+}
+.CustomBgContent h5 {
+  font-weight: 900;
+  font-size: 40px;
+  width: 500px;
+}
+.CustomBgContent h6,
+.CustomBgContent h5 {
+  margin: 0;
+}

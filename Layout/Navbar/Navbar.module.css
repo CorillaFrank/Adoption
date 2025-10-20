@@ -1,0 +1,39 @@
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-inline: 100px;
+  padding-block: 20px;
+  background: white;
+}
+.Navbar__Image {
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--boxShadow);
+}
+.Navbar .NavLinks {
+  display: flex;
+  margin-top: 60px;
+  gap: 15px;
+}
+.Navbar .CustomBtns {
+  margin-top: 60px;
+}
+.Navbar .NavLinks a {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 999px;
+}
+.Navbar .NavLinks a:hover,
+.Navbar .NavLinks a.Active {
+  background: yellow;
+  color: BLACK;
+}
+.Navbar .CustomBtn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: yellow;
+  color: black;
+  margin-inline: 5px;
+  font-size: 17px;
+}

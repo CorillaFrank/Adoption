@@ -1,0 +1,7 @@
+.BackButton {
+  background: var(--main);
+  width: max-content;
+  padding: 6px 16px;
+  border-radius: 999px;
+  color: black;
+}
