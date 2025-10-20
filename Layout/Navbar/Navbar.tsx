@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import styles from "./Navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,10 +9,11 @@ const NavLinks = [
   { LinkText: "About", LinkTo: "/About" },
   { LinkText: "Faq", LinkTo: "/Faq" },
   { LinkText: "Blogs", LinkTo: "/Blogs" },
+  { LinkText: "Pets", LinkTo: "/Pets" },
   { LinkText: "Contact", LinkTo: "/Contact" },
 ];
 export const Navbar = () => {
-    const pathname = usePathname()
+  const pathname = usePathname();
   return (
     <nav className={styles.Navbar}>
       <Link href={"/"}>
@@ -27,7 +28,12 @@ export const Navbar = () => {
       <div className={styles.NavLinks}>
         {NavLinks.map((data) => (
           <div key={data.LinkText}>
-            <Link href={data.LinkTo} className={pathname === data.LinkTo ? styles.Active :''}>{data.LinkText}</Link>
+            <Link
+              href={data.LinkTo}
+              className={pathname === data.LinkTo ? styles.Active : ""}
+            >
+              {data.LinkText}
+            </Link>
           </div>
         ))}
       </div>

@@ -1,0 +1,14 @@
+.Content {
+  text-align: center;
+}
+.Content h6 {
+  font-weight: 800;
+  font-size: 50px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.Content p {
+  font-size: 18px;
+  color: rgb(82, 85, 87);
+}

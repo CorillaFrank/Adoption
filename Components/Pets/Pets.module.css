@@ -1,0 +1,95 @@
+.PetsMain {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-block: 30px;
+}
+
+.PetsRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centra las cards */
+  gap: 25px;
+  width: 92%;
+  max-width: 1400px; /* ancho cómodo similar al ejemplo */
+}
+
+.PetsBox {
+  position: relative;
+  width: calc(100% / 4 - 20px);
+  height: 500px;
+  background: #fff; /* 🔸 tarjeta blanca */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); /* 🔸 sombra real */
+  display: flex; /* 🔸 texto debajo de la imagen */
+  flex-direction: column;
+}
+.PetsBox:hover {
+  transform: scale(1.02);
+}
+.PetsBox img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+}
+
+.PetsBoxContent {
+  padding: 12px 16px;
+  line-height: 1.4;
+}
+
+.PetsBoxContent h6 {
+  margin: 0 0 -12px; /* 🔸 quita margen por defecto */
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.PetsBoxContent .Breed {
+  position: absolute;
+  top: 10px;
+  display: inline-block;
+  margin: 4px 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #ff7a00; /* 🔸 badge naranja como el ejemplo */
+  color: #fff; /* 🔸 ahora sí se lee */
+  border-radius: 999px;
+  padding: 4px 12px;
+  line-height: 1;
+}
+
+.PetsBoxContent .Meta {
+  /* línea “Age / Gender” */
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+.PetsBox .PetsBoxContent div {
+  display: flex;
+  gap: 7px;
+  margin-block: 5px;
+}
+.PetsBoxContent .Desc {
+  margin: 0;
+  font-size: 13px;
+  color: #444;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  margin-bottom: 12px;
+}
+.PetsBox .PetsBoxContent {
+  padding: 10px;
+}
+.PetsBox .PetsBoxContent .Btn {
+  width: max-content;
+  background: yellow;
+  color: black;
+  border-radius: 999px;
+  padding: 5px 15px;
+  font-weight: 600;
+  letter-spacing: 1px; /* 🔹 separa las letras */
+}

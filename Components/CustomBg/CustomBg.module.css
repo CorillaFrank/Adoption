@@ -32,6 +32,7 @@
   font-weight: 900;
   font-size: 40px;
   width: 500px;
+  margin-block: 20px;
 }
 .CustomBgContent h6,
 .CustomBgContent h5 {
