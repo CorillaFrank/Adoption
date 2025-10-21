@@ -5,8 +5,8 @@ import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 
 const NavLinks = [
-  { LinkText: "Home", LinkTo: "/Home" },
-  { LinkText: "About", LinkTo: "/About" },
+  { LinkText: "Home", LinkTo: "/root/routes/Home" },
+  { LinkText: "About us", LinkTo: "/root/routes/About" },
   { LinkText: "Faq", LinkTo: "/Faq" },
   { LinkText: "Blogs", LinkTo: "/Blogs" },
   { LinkText: "Pets", LinkTo: "/Pets" },

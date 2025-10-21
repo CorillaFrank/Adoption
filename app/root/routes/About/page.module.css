@@ -1,0 +1,31 @@
+.Aboutus .Vision {
+  display: flex;
+  flex-direction: wrap;
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+.Aboutus .AboutusContent,
+.Aboutus .AboutusImg,
+.Vision div {
+  flex: 1 1 45rem;
+}
+.Aboutus .AboutusImg img,
+.Vision div img {
+  width: 50%;
+}
+.Aboutus .AboutusContent h6,
+.Vision div h6 {
+  font-weight: 700;
+  color: var(--main);
+  font-size: 40px;
+  border-bottom: 0.2px dashed var(--main);
+  width: max-content;
+  margin-bottom: 20px;
+}
+.AboutusContent p,
+.Vision div p {
+  color: black;
+  line-height: 26px;
+  font-weight: 500;
+  font-size: 18px;
+}
