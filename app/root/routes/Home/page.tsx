@@ -4,6 +4,8 @@ import React from "react";
 import Wrapper from "@/Components/Wrapper/Wrapper";
 import Content from "@/Components/Content/Content";
 import Pets from "@/Components/Pets/Pets";
+import OurBlogs from "@/Components/OurBlogs/OurBlogs";
+import AdoptionProcess from "@/Components/AdoptionProcess/AdoptionProcess";
 export const metadata = {
   title: "Home",
 };
@@ -29,6 +31,21 @@ const Homepage = () => {
           pText="Meet our adorable pets. they are waiting for you"
         />
         <Pets />
+      </Wrapper>
+      <Wrapper>
+        <Content
+          h6Text="Proceso de Adopcion"
+          pText="Proceso de Adopcion they are waiting for you"
+        />
+        <AdoptionProcess />
+      </Wrapper>
+
+      <Wrapper>
+        <Content
+          h6Text="Blogs"
+          pText="Proceso de Adopcion they are waiting for you"
+        />
+        <OurBlogs />
       </Wrapper>
     </>
   );

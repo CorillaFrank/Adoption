@@ -1,7 +1,6 @@
 import styles from "./Footer.module.css";
 import { SocialIcons } from "@/Components/SocialIcons/SocialIcons";
 import Link from "next/link";
-
 const Aboutus = [
   {
     LinkText: "Aboutus",
@@ -38,7 +37,6 @@ const Help = [
     LinkTo: "/Abaut",
   },
 ];
-
 export const Footer = () => {
   return (
     <footer className={styles.Footer}>
@@ -78,3 +76,4 @@ export const Footer = () => {
     </footer>
   );
 };
+export default Footer;
